@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+    width: 100%;
+    background-color: rgb(97, 96, 96);
+}
+
+.src {
+    background-color: rgb(97, 96, 96);
+}
+
+.header {
+    position: absolute;
+	background-color: black;
+	width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 15px;
+}
+
+.header h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+.logo {
+    display: flex;
+	height: 100%;
+    align-items: center;
+	align-self: flex-start;
+	margin-right: auto;	
+}
+
+.logo img {
+    display: flex;
+    height: 100%;
+    width: auto;
+    
+}
+
+.osupage div {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.osupage {
+    display: flex;
+	height: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.osupage div{
+    margin-right: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10vh;
+    height: auto;
+    margin: auto;
+
+}
+
+.aim {
+    background-color: darkgray; 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.tapping {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.aim h1 {
+    text-align: center;
+    width: 90%;
+    height: auto;
+}
+
+.tapping h1 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.vid1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.vid1 video {
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.vid2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.vid2 video {
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.src ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 90%;
+}
+
+ul li a {
+    display: block;
+    padding: 4px 12px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
+
+.foot {
+    background-color: rgb(97, 96, 96);
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.foot ol {
+    width: auto;
+    height: 30vh;
+    margin: auto;
+}
