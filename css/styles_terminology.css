@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background-color: rgb(97, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+	background-color: black;
+	width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 15px;
+}
+
+.header h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+	height: 100%;
+    align-items: center;
+	align-self: flex-start;
+	margin-right: auto;	
+}
+
+.reddito {
+	background: url('../images/css_sprites.png') no-repeat -111px -10px;
+	width: 83px;
+	height: 77px;
+}
+
+.os {
+	background: url('../images/css_sprites.png') no-repeat -10px -10px;
+	width: 81px;
+	height: 80px;
+}
+
+.shige{
+    width: 56px; 
+    height: 50px;
+    background: url('../images/css_sprites.png') no-repeat -214px -10px;
+    z-index: 1;
+}
+
+.whitecat {
+	background: url('../images/css_sprites.png') no-repeat -10px -110px;
+	width: 57px;
+	height: 51px;
+}
+
+.ppy {
+	background: url('../images/css_sprites.png') no-repeat -87px -110px;
+	width: 56px;
+	height: 51px;
+}
+
+.logo img {
+    display: flex;
+    height: 100%;
+    width: auto;
+    
+}
+
+.osupage li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+.osupage {
+    position: relative;
+    display: flex;
+	height: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.osupage div{
+    margin-right: 15px;
+}
+
+a {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    width: 100%
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: goldenrod;
+}
+
+table, tr, th {
+    border-collapse: collapse;
+    border: 2px solid goldenrod;
+    background-color: rgb(44, 44, 44);
+    color: gray;
+}
+
+table {
+    margin:5vh auto;
+    width: 80%;
+    padding: 30px;
+}
+
+tr {
+    width: 30%;
+    height: 10vh;
+}
+
+th h3 {
+    color:  white;
+    font-style: italic;
+}
